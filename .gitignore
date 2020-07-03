@@ -4,11 +4,15 @@
 /dist
 /tmp
 /out-tsc
+app/**/*.js
+app/**/*.js.map
+
 # Only exists if Bazel was run
 /bazel-out
 
 # dependencies
 /node_modules
+bower_components/
 
 # profiling files
 chrome-profiler-events*.json
@@ -22,6 +26,9 @@ speed-measure-plugin*.json
 *.launch
 .settings/
 *.sublime-workspace
+
+# IDEs - IntelliJ
+.idea/
 
 # IDE - VSCode
 .vscode/*
