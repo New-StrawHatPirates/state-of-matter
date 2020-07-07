@@ -1,0 +1,11 @@
+.block {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.card{
+  align-items: center;
+}
+.heading{
+  text-align: center;
+}
