@@ -10,6 +10,9 @@
   }
 }
 
+#collapsibleNavbar{
+  border: dodgerblue;
+}
 .navbar {
   position: relative;
   padding: .5rem 1rem;

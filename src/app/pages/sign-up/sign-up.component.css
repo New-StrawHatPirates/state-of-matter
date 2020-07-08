@@ -1,0 +1,149 @@
+.display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
+  display: flex;
+  display: -webkit-flex;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+.main {
+  background: #f8f8f8;
+  padding: 150px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 900px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+
+.signup-content {
+  padding: 75px 0;
+}
+
+.signup-form, .signup-image {
+  width: 50%;
+  overflow: hidden;
+}
+
+.signup-image {
+  margin: 0 55px;
+}
+
+.form-title {
+  margin-bottom: 33px;
+}
+
+.signup-image {
+  margin-top: 45px;
+}
+
+figure {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-submit {
+  display: inline-block;
+  background: #6dabe4;
+  color: #fff;
+  border-bottom: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background: #4292dc;
+}
+
+
+.signup-form {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px;
+}
+
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  box-sizing: border-box;
+}
+
+
+.agree-term {
+  display: inline-block;
+  width: auto;
+}
+
+label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #222;
+}
+
+.label-agree-term {
+  position: relative;
+  top: 0;
+  transform: translateY(0);
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-content, .signin-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .signup-form {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 30px;
+  }
+
+  .signup-form, .signup-image {
+    width: auto;
+  }
+
+  .form-button {
+    text-align: center;
+  }
+
+  .form-title {
+    text-align: center;
+  }
+}
