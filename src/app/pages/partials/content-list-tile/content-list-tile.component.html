@@ -1,0 +1,21 @@
+<ul class="product-cols__list" role="list">
+  <li role="listitem"
+      *ngFor="let listItem of listItems; index as i">
+    <div class="product-icon">
+      <a class="product-icon__link gc-analytics-event">
+        <div class="image-icon" role="presentation" aria-hidden="true">
+          <!--          some image here-->
+        </div>
+      </a>
+    </div>
+    <div>
+      <a aria-level="6" role="heading"
+         class="product-icon__name gc-analytics-event">
+        {{listItem}}
+      </a>
+      <p>
+        Short description of {{i + 1}} will come here
+      </p>
+    </div>
+  </li>
+</ul>

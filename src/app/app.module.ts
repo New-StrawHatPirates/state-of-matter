@@ -10,6 +10,8 @@ import {FooterComponent} from './pages/partials/footer/footer.component';
 import {PageNotFoundComponent} from './pages/page-not-found/page-not-found.component';
 import {SignUpComponent} from './pages/sign-up/sign-up.component';
 import {SignInComponent} from './pages/sign-in/sign-in.component';
+import { ContentListTileComponent } from './pages/partials/content-list-tile/content-list-tile.component';
+import { CarouselComponent } from './pages/partials/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import {SignInComponent} from './pages/sign-in/sign-in.component';
     PageNotFoundComponent,
     SignUpComponent,
     SignInComponent,
+    ContentListTileComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
