@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*NORMAL MODE*/
+/*body{*/
+/*  background-color: #e6e6e6;*/
+/*}*/
+
+/*DARK MODE*/
+body {
+  background-color: #333333;
+  color: white;
+}

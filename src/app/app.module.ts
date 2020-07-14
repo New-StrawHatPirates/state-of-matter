@@ -12,6 +12,7 @@ import {SignUpComponent} from './pages/sign-up/sign-up.component';
 import {SignInComponent} from './pages/sign-in/sign-in.component';
 import { ContentListTileComponent } from './pages/partials/content-list-tile/content-list-tile.component';
 import { CarouselComponent } from './pages/partials/carousel/carousel.component';
+import { BaseBackgroundComponent } from './pages/partials/base-background/base-background.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CarouselComponent } from './pages/partials/carousel/carousel.component'
     SignInComponent,
     ContentListTileComponent,
     CarouselComponent,
+    BaseBackgroundComponent,
   ],
   imports: [
     BrowserModule,

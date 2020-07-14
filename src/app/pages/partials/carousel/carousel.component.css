@@ -1,7 +1,8 @@
-.carousel{
-  margin-bottom: 20px;
+.carousel {
+  padding: 0;
 }
-.d-block{
+
+.d-block {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
 }

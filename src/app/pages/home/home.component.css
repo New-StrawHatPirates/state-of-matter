@@ -3,9 +3,24 @@
   padding-top: 50px;
 }
 
-.card{
-  align-items: center;
+.container {
+  background-color: rgba(51, 51, 51, .2);
+  margin-top: 0;
+  border-radius: 20px;
+  box-shadow: 0 15px 17px 0 rgba(179, 179, 179, .4);
 }
-.heading{
+
+.container-inner {
+  padding: 10px;
+  box-shadow: 0 15px 17px 0 rgba(204, 204, 204, .5);
+}
+
+.card {
+  align-items: center;
+  background-color: rgba(204, 204, 204, .5);
+  color: white;
+}
+
+.heading {
   text-align: center;
 }

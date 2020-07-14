@@ -4,13 +4,13 @@
   <div class="container">
     <div class="row no-gutters">
 
-      <div class="col-md-6 col-lg-4 item zoom-on-hover"
+      <section class="col-md-6 col-lg-4 item zoom-on-hover"
            *ngFor="let image of imageList; index as i">
         <a>
           <img class="img-fluid image" alt="someImage"
                [src]="'../../../assets/img/nature/'+image">
         </a>
-        <div class="container">
+          <div class="container-inner">
           <div class="heading">
             <h2>{{ imageListItemTitle[i]}}</h2>
           </div>
@@ -20,7 +20,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 </section>
