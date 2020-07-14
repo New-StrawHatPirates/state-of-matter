@@ -15,11 +15,12 @@ export class CarouselComponent implements OnInit {
   }
 
 
-  urlBase = '../../../assets/img/nature/';
+  urlBase = '../../../assets/img/anime/';
   imgUrl = [
-    this.urlBase + 'image2.jpg',
-    this.urlBase + 'image3.jpg',
-    this.urlBase + 'image4.jpg',
+    this.urlBase + '1.jpg',
+    this.urlBase + '2.jpg',
+    this.urlBase + '3.jpg',
+    this.urlBase + '4.jpg',
   ];
 
   paused = false;

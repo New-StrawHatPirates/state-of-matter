@@ -1,12 +1,15 @@
 <!-- Sing in  Form -->
 <section class="sign-in">
   <div class="container">
+    <!--    LEFT SIDE-->
     <div class="signin-content">
       <div class="signin-image">
         <figure><img src="../../../assets/img/avatar/james.png" alt="sing up image"></figure>
-        <a href="#" class="signup-image-link">Create an account</a>
+        <a class="nav-link signup-image-link" routerLink="/signUp">
+           Create an account <br> Sign Up
+        </a>
       </div>
-
+      <!--RIGHT SIDE-->
       <div class="signin-form">
         <h2 class="form-title">Sign up</h2>
         <form method="POST" class="register-form" id="login-form">
@@ -19,7 +22,7 @@
             <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
           </div>
           <div class="form-group">
-            <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+            <input type="checkbox" name="remember-me" id="remember-me" class="agree-term"/>
             <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
           </div>
           <div class="form-group form-button">

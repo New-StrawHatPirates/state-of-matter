@@ -1,6 +1,6 @@
 .gradient {
   background: linear-gradient(120deg,#7f70f5,#0ea0ff);
-  color: #fff;
+  color: white;
 }
 
 @media (min-width:576px) {
@@ -16,4 +16,8 @@
 .navbar {
   position: relative;
   padding: .5rem 1rem;
+}
+
+.btn{
+  color: inherit;
 }

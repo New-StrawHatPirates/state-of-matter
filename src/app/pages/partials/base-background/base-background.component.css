@@ -5,3 +5,7 @@
   z-index: -1;
   height: max-content;
 }
+
+svg {
+  width: 97vw;
+}
