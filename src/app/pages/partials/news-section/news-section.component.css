@@ -1,0 +1,17 @@
+.news{
+  position: absolute;
+  padding-top: 50px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 0;
+  border-radius: 20px;
+  box-shadow: 0 15px 17px 0 rgba(179, 179, 179, .4);
+  width: 60vw;
+  height: 60vh;
+  text-align: center;
+}

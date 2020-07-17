@@ -4,19 +4,21 @@
   <div class="container">
     <div class="row no-gutters">
 
-      <section class="col-md-6 col-lg-4 item zoom-on-hover"
-           *ngFor="let image of imageList; index as i">
+      <section class="col-lg-4 item zoom-on-hover"
+               *ngFor="let image of imageList; index as i">
         <a>
           <img class="img-fluid image" alt="someImage"
                [src]="'../../../assets/img/nature/'+image">
         </a>
-          <div class="container-inner">
+        <div class="container-inner">
           <div class="heading">
             <h2>{{ imageListItemTitle[i]}}</h2>
           </div>
           <div class="card border-0">
             <div class="card-body">
-              <app-content-list-tile></app-content-list-tile>
+              <app-content-list-tile
+                [listItemTitle]="imageListItemTitle[i]">
+              </app-content-list-tile>
             </div>
           </div>
         </div>
@@ -24,3 +26,5 @@
     </div>
   </div>
 </section>
+
+<app-sliding-section></app-sliding-section>

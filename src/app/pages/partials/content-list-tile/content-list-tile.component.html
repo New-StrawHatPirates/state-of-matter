@@ -3,13 +3,13 @@
       *ngFor="let listItem of listItems; index as i">
     <div class="product-icon">
       <a class="product-icon__link gc-analytics-event">
-        <div class="image-icon" role="presentation" aria-hidden="true">
+        <div class="image-icon" role="presentation">
           <!--          some image here-->
         </div>
       </a>
     </div>
     <div>
-      <a aria-level="6" role="heading"
+      <a role="heading"
          class="product-icon__name gc-analytics-event">
         {{listItem}}
       </a>
@@ -17,5 +17,10 @@
         Short description of {{i + 1}} will come here
       </p>
     </div>
+  </li>
+  <li role="listitem">
+    <a class="nav-link" [routerLink]="'/'+listItemTitle">
+      To see more {{ listItemTitle }}, click here
+    </a>
   </li>
 </ul>

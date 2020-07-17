@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-content-list-tile',
@@ -6,6 +6,8 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./content-list-tile.component.css']
 })
 export class ContentListTileComponent implements OnInit {
+
+  @Input() listItemTitle: string;
 
   constructor() {
   }

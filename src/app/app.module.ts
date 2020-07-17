@@ -8,11 +8,14 @@ import {NavbarComponent} from './pages/partials/navbar/navbar.component';
 import {HomeComponent} from './pages/home/home.component';
 import {FooterComponent} from './pages/partials/footer/footer.component';
 import {PageNotFoundComponent} from './pages/page-not-found/page-not-found.component';
-import {SignUpComponent} from './pages/sign-up/sign-up.component';
+import {SignUpComponent} from './pages/sign-in/sign-up/sign-up.component';
 import {SignInComponent} from './pages/sign-in/sign-in.component';
-import { ContentListTileComponent } from './pages/partials/content-list-tile/content-list-tile.component';
-import { CarouselComponent } from './pages/partials/carousel/carousel.component';
-import { BaseBackgroundComponent } from './pages/partials/base-background/base-background.component';
+import {ContentListTileComponent} from './pages/partials/content-list-tile/content-list-tile.component';
+import {CarouselComponent} from './pages/partials/carousel/carousel.component';
+import {BaseBackgroundComponent} from './pages/partials/base-background/base-background.component';
+import {ImageGalleryComponent} from './pages/partials/image-gallery/image-gallery.component';
+import {SlidingSectionComponent} from './pages/partials/sliding-section/sliding-section.component';
+import { NewsSectionComponent } from './pages/partials/news-section/news-section.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { BaseBackgroundComponent } from './pages/partials/base-background/base-b
     ContentListTileComponent,
     CarouselComponent,
     BaseBackgroundComponent,
+    ImageGalleryComponent,
+    SlidingSectionComponent,
+    NewsSectionComponent,
   ],
   imports: [
     BrowserModule,

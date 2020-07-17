@@ -1,6 +1,7 @@
 <ngb-carousel #carousel [interval]="1800" [pauseOnHover]="pauseOnHover"
               (slide)="onSlide($event)">
   <ng-template ngbSlide *ngFor="let img of imgUrl; index as i">
+    <app-news-section></app-news-section>
     <div class="carousel-caption">
       <h3>My slide {{i + 1}} title</h3>
     </div>

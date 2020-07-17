@@ -1,0 +1,38 @@
+h2 {
+  /*COMMENT BACKGROUND FOR TO MAKE TRANSPARENT*/
+  text-align: center;
+  /*background: linear-gradient(120deg, #7f70f5, #0ea0ff);*/
+}
+
+.row {
+  /*COMMENT BACKGROUND FOR TO MAKE TRANSPARENT*/
+  /*background: linear-gradient(150deg, #7f70f5, #0ea0ff);*/
+}
+
+.image-icon {
+  cursor: pointer;
+  border-radius: 52px;
+  height: 80px;
+  width: 80px;
+  justify-content: center;
+  line-height: 65px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.slider-card {
+  text-align: center;
+}
+
+
+.card {
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+
+.container-inner {
+  padding: 10px;
+  box-shadow: 0 15px 17px 0 rgba(204, 204, 204, .5);
+}
+

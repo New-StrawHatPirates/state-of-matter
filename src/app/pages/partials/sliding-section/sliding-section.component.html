@@ -1,0 +1,24 @@
+<h2>Featured (It's actually sliding but images are same)</h2>
+
+<ngb-carousel #carousel [interval]="1800" [pauseOnHover]="pauseOnHover"
+              (slide)="onSlide($event)" *ngFor="let x of [0,1]">
+  <ng-template ngbSlide *ngFor="let i of [0,1]">
+    <div class="row">
+      <div class="col-6 col-lg-3 slider-card"
+           *ngFor="let image of imgUrl">
+        <div class="product-icon">
+          <a class="product-icon__link gc-analytics-event">
+            <img [src]="image" class="image-icon" alt="{{image}}">
+          </a>
+        </div>
+        <div class="container-inner">
+          <div class="card border-0">
+            <div class="card-body">
+              <h4>Its name</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</ngb-carousel>
