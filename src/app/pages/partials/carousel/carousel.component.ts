@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, Input, OnInit, ViewChild} from '@angular/core';
 import {NgbCarousel, NgbSlideEvent, NgbSlideEventSource} from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -8,7 +8,10 @@ import {NgbCarousel, NgbSlideEvent, NgbSlideEventSource} from '@ng-bootstrap/ng-
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
-
+  @Input() carouselAspectRatio: { height: string; width: string };
+  @Input() showNews = false;
+  @Input() showNavigationArrows = true;
+  @Input() showNavigationIndicators = true;
   @ViewChild('carousel', {static: true}) carousel: NgbCarousel;
 
   constructor() {

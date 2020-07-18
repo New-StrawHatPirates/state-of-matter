@@ -7,6 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  carouselAspectRatio = {height: '92vh', width: '100vw'};
+
   constructor() {
   }
 

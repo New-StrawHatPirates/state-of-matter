@@ -16,6 +16,9 @@ import {BaseBackgroundComponent} from './pages/partials/base-background/base-bac
 import {ImageGalleryComponent} from './pages/partials/image-gallery/image-gallery.component';
 import {SlidingSectionComponent} from './pages/partials/sliding-section/sliding-section.component';
 import { NewsSectionComponent } from './pages/partials/news-section/news-section.component';
+import { MoviesComponent } from './pages/movies/movies.component';
+import { AnimeComponent } from './pages/anime/anime.component';
+import { CarouselListComponent } from './pages/partials/carousel-list/carousel-list.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { NewsSectionComponent } from './pages/partials/news-section/news-section
     ImageGalleryComponent,
     SlidingSectionComponent,
     NewsSectionComponent,
+    MoviesComponent,
+    AnimeComponent,
+    CarouselListComponent,
   ],
   imports: [
     BrowserModule,

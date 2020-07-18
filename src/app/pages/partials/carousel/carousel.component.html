@@ -1,13 +1,13 @@
-<ngb-carousel #carousel [interval]="1800" [pauseOnHover]="pauseOnHover"
-              (slide)="onSlide($event)">
+<ngb-carousel #carousel (slide)="onSlide($event)" [interval]="1800"
+              [pauseOnHover]="pauseOnHover"
+              [showNavigationIndicators]="showNavigationIndicators"
+              [showNavigationArrows]="showNavigationArrows">
   <ng-template ngbSlide *ngFor="let img of imgUrl; index as i">
-    <app-news-section></app-news-section>
-    <div class="carousel-caption">
-      <h3>My slide {{i + 1}} title</h3>
-    </div>
+    <app-news-section *ngIf="showNews"></app-news-section>
     <a target="_blank" rel="nofollow noopener noreferrer">
       <div class="picsum-img-wrapper">
-        <img class="d-block " [src]="img" alt="My image {{i + 1}} description">
+        <img class="d-block " [src]="img" alt="My image {{i + 1}} description"
+             [ngStyle]="{'width': carouselAspectRatio.width, 'height':carouselAspectRatio.height}">
       </div>
     </a>
   </ng-template>
