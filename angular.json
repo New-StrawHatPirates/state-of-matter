@@ -118,6 +118,10 @@
               "devServerTarget": "state-of-matter:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

@@ -1,11 +1,58 @@
-.carousel-nav-icon {
-  height: 48px;
-  width: 48px;
+.bar {
+  overflow: hidden;
 }
 
-.carousel-item .col, .carousel-item .col-sm, .carousel-item .col-md {
-  margin: 8px;
-  height: 300px;
-  background-size: cover;
-  background-position: center center;
+div {
+  position: relative;
+}
+
+span {
+  overflow: visible;
+  display: block;
+}
+
+ul {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+li {
+  display: inline-block;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2;
+  top: 125px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.next {
+  right: -10px;
+}
+
+.inner-container {
+  background-color: #e72734;
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }

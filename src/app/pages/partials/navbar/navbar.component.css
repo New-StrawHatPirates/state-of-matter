@@ -16,6 +16,7 @@
 .navbar {
   position: relative;
   padding: .5rem 1rem;
+  width: 100vw;
 }
 
 .btn{
