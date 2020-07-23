@@ -15,10 +15,10 @@ import {CarouselComponent} from './pages/partials/carousel/carousel.component';
 import {BaseBackgroundComponent} from './pages/partials/base-background/base-background.component';
 import {ImageGalleryComponent} from './pages/partials/image-gallery/image-gallery.component';
 import {SlidingSectionComponent} from './pages/partials/sliding-section/sliding-section.component';
-import { NewsSectionComponent } from './pages/partials/news-section/news-section.component';
-import { MoviesComponent } from './pages/movies/movies.component';
-import { AnimeComponent } from './pages/anime/anime.component';
-import { CarouselListComponent } from './pages/partials/carousel-list/carousel-list.component';
+import {NewsSectionComponent} from './pages/partials/news-section/news-section.component';
+import {MoviesComponent} from './pages/movies/movies.component';
+import {AnimeComponent} from './pages/anime/anime.component';
+import {CarouselListComponent} from './pages/partials/carousel-list/carousel-list.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +42,7 @@ import { CarouselListComponent } from './pages/partials/carousel-list/carousel-l
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
