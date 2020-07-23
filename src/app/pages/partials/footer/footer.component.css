@@ -1,7 +1,7 @@
 .footer {
   bottom: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("../../../../assets/img/anime/3.jpg");
   width: 100vw;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("../../../../assets/img/anime/3.jpg");
 }
 
 footer {
